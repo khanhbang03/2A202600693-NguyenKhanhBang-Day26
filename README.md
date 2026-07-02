@@ -31,6 +31,10 @@ client-configs/
 tests/
   test_db.py
   test_mcp_server.py
+  test_postgres.py
+docs/
+  RUBRIC_COVERAGE.md
+  DEMO_EVIDENCE.md
 ```
 
 ## Setup
@@ -165,6 +169,8 @@ schema://table/students
 
 ## Verification
 
+Rubric mapping is documented in `docs/RUBRIC_COVERAGE.md`.
+
 Run automated tests:
 
 ```bash
@@ -256,6 +262,8 @@ Claude Code `.mcp.json` fragment:
 ```
 
 ## Demo Script
+
+Demo evidence and screenshot checklist are in `docs/DEMO_EVIDENCE.md`.
 
 For a short demo video, show these steps:
 
